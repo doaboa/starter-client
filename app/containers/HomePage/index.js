@@ -9,17 +9,11 @@
  * the linting exception.
  */
 
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import React from 'react'
 
 /* eslint-disable react/prefer-stateless-function */
 export default class HomePage extends React.PureComponent {
   render() {
-    return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
-    );
+    return <h1>This is HomePage component!</h1>
   }
 }
